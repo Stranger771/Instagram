@@ -1,0 +1,49 @@
+.Main-page {
+  text-align: center;
+  margin: 0;
+}
+.Pic {
+    height:150px;
+    width: 600px;
+}
+.Instagram {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 3%;
+}
+.Button {
+  font-size: 2rem;
+  padding: 10px 0;
+  text-align: center;
+}
+.submit {
+  padding: 20%;
+}
+hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+hr {
+  margin: 40px 0;
+}
+.info {
+  padding: 2%;
+  font-size: 1.5rem;
+}
+.p {
+  text-align: center;
+}
